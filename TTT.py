@@ -11,10 +11,8 @@ def index(l,e):
     u=[]
     for i in l:
         if e in i:
-            z=l.index(i)
-            v=i.index(e)
-            u.append(z)
-            u.append(v)
+            u.append(l.index(i))
+            u.append(i.index(e))
     return u
 
 print '!!!! WELCOME TO TIC TAC TOE !!!!'
