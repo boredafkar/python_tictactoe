@@ -6,8 +6,6 @@ def initiate(l):
              print l[i][j],
          print
 def index(l,e):
-    z=0
-    v=0
     u=[]
     for i in l:
         if e in i:
