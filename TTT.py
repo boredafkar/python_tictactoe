@@ -1,8 +1,7 @@
-m,n=3,3
 L=[['A','B','C'],['D','E','F'],['G','H','I']]
 def initiate(l):
-    for i in range(m):
-         for j in range(n):
+    for i in range(3):
+         for j in range(3):
              print l[i][j],
          print
 def index(l,e):
